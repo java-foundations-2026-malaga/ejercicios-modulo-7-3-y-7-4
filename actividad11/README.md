@@ -4,6 +4,12 @@
 
 Ofrece constructor vacío y constructor con argumentos.
 
+### Detalles
+
+- Crea una clase `static class Prisoner` con los campos `name` (String), `height` (double) y `sentence` (int).
+- Escribe dos constructores: uno vacío `Prisoner()` y otro `Prisoner(String name, double height, int sentence)`.
+- Crea un preso con cada constructor (el completo con Bubba, 1.75, 4) y muestra sus campos con el formato de la salida esperada.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +35,5 @@ Completo: Bubba, 1.75, 4
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

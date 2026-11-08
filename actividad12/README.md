@@ -1,8 +1,14 @@
 # JFo 7.3 y 7.4 - Actividad 12
 
-## Reduce redundancia con this(...) 
+## Reduce redundancia con this(...)
 
 Haz que el constructor de dos parámetros llame al de tres.
+
+### Detalles
+
+- Crea una clase `static class Light` con los campos `int brightness`, `String color` y `boolean on`.
+- Escribe un constructor de tres parámetros `Light(int brightness, String color, boolean on)` y otro de dos parámetros `Light(int brightness, String color)` que llame al primero con `this(brightness, color, false)`.
+- Crea la luz 1 con el constructor de dos parámetros (50, "warm") y la luz 2 con el de tres (80, "cool", true) y muestra sus campos con el formato de la salida esperada.
 
 ## Objetivo
 
@@ -29,4 +35,5 @@ Luz 2: 80, cool, true
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

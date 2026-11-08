@@ -4,6 +4,11 @@
 
 Crea cuatro firmas diferentes de sum.
 
+### Detalles
+
+- Escribe cuatro métodos estáticos `sum` sobrecargados con estas firmas: `(int, int)` que devuelve `int`, y `(double, double)`, `(int, double)` y `(double, int)` que devuelven `double`.
+- En `main` muestra `sum(3, 4)`, `sum(3.5, 4.0)`, `sum(3, 4.5)` y `sum(3.5, 4)` con las etiquetas de la salida esperada.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -31,4 +36,5 @@ double,int: 7.5
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

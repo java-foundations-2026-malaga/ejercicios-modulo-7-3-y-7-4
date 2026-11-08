@@ -4,6 +4,11 @@
 
 Inicializa correctamente parámetros con el mismo nombre.
 
+### Detalles
+
+- Crea una clase `static class Prisoner` con los campos `name`, `height` y `sentence` y un constructor cuyos parámetros se llamen **igual** que los campos; usa `this` para asignarlos.
+- Crea el preso Twitch (1.68, 3) e imprime sus datos con el formato `nombre: altura, condena`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +33,5 @@ Twitch: 1.68, 3
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

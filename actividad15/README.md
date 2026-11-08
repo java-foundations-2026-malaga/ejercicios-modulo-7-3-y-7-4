@@ -4,6 +4,12 @@
 
 Sobrecarga display para mostrar también think().
 
+### Detalles
+
+- Crea una clase `static class Prisoner` con `name`, `height` y `sentence`, un constructor con los tres datos y un método `think()` que muestre `<nombre> está pensando`.
+- Escribe dos métodos `display`: `display()` muestra `nombre: altura, condena` y `display(boolean think)` hace lo mismo y, si `think` es `true`, llama además a `think()`.
+- Con el preso Bubba (1.75, 4) llama primero a `display()` y después a `display(true)`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -30,4 +36,5 @@ Bubba está pensando
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

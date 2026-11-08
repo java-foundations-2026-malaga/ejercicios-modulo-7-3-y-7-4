@@ -4,6 +4,11 @@
 
 Imprime campos no inicializados de un objeto.
 
+### Detalles
+
+- Crea dentro de `Actividad06` una clase `static class Prisoner` con los campos `String name`, `double height` e `int sentence`, **sin inicializarlos**.
+- En `main` crea un objeto con `new Prisoner()` e imprime cada campo con el formato de la salida esperada (`"name: " + prisoner.name`, etc.).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -30,4 +35,5 @@ sentence: 0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.
