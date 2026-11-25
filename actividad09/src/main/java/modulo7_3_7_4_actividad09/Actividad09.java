@@ -6,7 +6,7 @@ public class Actividad09 {
         double height;
         int sentence;
 
-        void setFields(String name, double height, int sentence) {
+    Prisoner(String name, double height, int sentence) {
             this.name = name;
             this.height = height;
             this.sentence = sentence;
@@ -14,8 +14,7 @@ public class Actividad09 {
     }
 
     public static void main(String[] args) {
-        Prisoner prisoner = new Prisoner();
-        prisoner.setFields("Bubba", 1.75, 4);
+        Prisoner prisoner = new Prisoner("Bubba", 1.75, 4);
         System.out.println(prisoner.name + ": " + prisoner.height + ", " + prisoner.sentence);
     }
 }

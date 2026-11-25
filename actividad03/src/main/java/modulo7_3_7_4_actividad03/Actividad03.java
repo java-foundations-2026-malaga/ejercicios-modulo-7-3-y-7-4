@@ -7,10 +7,11 @@ public class Actividad03 {
         Prisoner(String name, double height, int sentence) {
             this.name = name;
         }
-    }
+
+}
 
     public static void main(String[] args) {
-        Prisoner prisoner = new Prisoner();
+        Prisoner prisoner = new Prisoner("Bubba", 1.75, 4);
         System.out.println(prisoner.name);
     }
 }

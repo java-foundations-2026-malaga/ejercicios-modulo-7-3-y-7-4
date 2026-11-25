@@ -6,8 +6,8 @@ public class Actividad04 {
         double balance;
 
         Account(String name, double balance) {
-            name = name;
-            balance = balance;
+            this.name = name;
+            this.balance = balance;
         }
     }
 

@@ -6,7 +6,7 @@ public class Actividad01 {
         double height;
         int sentence;
 
-        public void Prisoner(String name, double height, int sentence) {
+        public Prisoner(String name, double height, int sentence) {
             this.name = name;
             this.height = height;
             this.sentence = sentence;

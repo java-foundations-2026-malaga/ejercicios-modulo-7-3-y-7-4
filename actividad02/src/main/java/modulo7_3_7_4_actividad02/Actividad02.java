@@ -5,7 +5,7 @@ public class Actividad02 {
         String name;
         double price;
 
-        Producto(String name, double price) {
+        Product(String name, double price) {
             this.name = name;
             this.price = price;
         }

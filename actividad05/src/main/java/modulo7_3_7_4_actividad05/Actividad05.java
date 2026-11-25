@@ -2,7 +2,7 @@ package modulo7_3_7_4_actividad05;
 
 public class Actividad05 {
     static class Calculator {
-        int sum(double a, double b) {
+        int sum(int a, int b) {
             return (int) (a + b);
         }
 
@@ -13,6 +13,6 @@ public class Actividad05 {
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        System.out.println(calculator.sum(3, 4));
+        System.out.println("Enteros: "+calculator.sum(3, 4)+"\nDecimales: "+calculator.sum(3.5, 4.0));
     }
 }
